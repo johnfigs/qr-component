@@ -64,19 +64,6 @@ Josh Comeau's CSS Reset: https://www.joshwcomeau.com/css/custom-css-reset/
 User defined styles
 */
 
-/*
-Mobile Styles
-
-*/
-/* @media (max-width: 375px) {
-    .qr-container {
-        width: 80%;
-        height: 80%; 
-        background-color: red;
-    }
-
-} */
-
 body {
     background-color: hsl(212, 45%, 89%);
     display: flex;
@@ -94,6 +81,7 @@ body {
     justify-content: center;
     align-items:center;
     text-align: center;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 .qr-code {
@@ -111,7 +99,6 @@ body {
 p {
     font-size: 15px;
     font-family: 'Outfit', sans-serif;
-    /* padding: 10px 0 2px 0; */
 }
 
 .heavy {
@@ -120,5 +107,17 @@ p {
 
 .light {
     font-weight: 400;
+}
+
+/*
+Mobile Styles
+*/
+
+@media (max-width: 375px) {
+  .qr-container {
+      width: 80%;
+      height: auto; 
+  }
+
 }
 
