@@ -116,8 +116,12 @@ Mobile Styles
 @media (max-width: 375px) {
   .qr-container {
       width: 80%;
-      height: auto; 
   }
+}
 
+@media (min-width: 1440px) {
+  .qr-container {
+    width: 15%;
+  }
 }
 
