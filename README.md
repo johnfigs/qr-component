@@ -53,7 +53,7 @@ I would like to grow into using CSS best practices that are efficient and scalab
 ## Author
 
 - Website - [Johnathan Figueroa](https://github.com/johnfigs)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/johnfigs)
+- Frontend Mentor - [@johnfigs](https://www.frontendmentor.io/profile/johnfigs)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
