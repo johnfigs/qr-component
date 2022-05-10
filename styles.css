@@ -99,6 +99,7 @@ body {
 p {
     font-size: 15px;
     font-family: 'Outfit', sans-serif;
+    margin-bottom: 10px;
 }
 
 .heavy {
@@ -107,6 +108,7 @@ p {
 
 .light {
     font-weight: 400;
+    color: #7D889E;
 }
 
 /*
@@ -121,7 +123,7 @@ Mobile Styles
 
 @media (min-width: 1440px) {
   .qr-container {
-    max-width: 288px;
+    max-width: 320px;
   }
 }
 
